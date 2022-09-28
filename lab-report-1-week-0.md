@@ -1,3 +1,3 @@
 Screenshot of Screenshot usage:
 |--------------------------------|
-|![Image](screenshots1.PNG)      |
+![Image](screenshots1.PNG)      
