@@ -1,11 +1,11 @@
 # How to log into a course-specific account on ieng6
 
-- Installing VScode
-- Remotely Connecting
-- Trying Some Commands
-- Moving Files with `scp`
-- Setting an SSH Key
-- Optimizing Remote Running
+- [Installing VScode](#installing-vscode)
+- [Remotely Connecting](#remotely-connecting)
+- [Trying Some Commands](#trying-some-commands)
+- [Moving Files with `scp`](#moving-files-with-scp)
+- [Setting an SSH Key](#setting-an-ssh-key)
+- [Optimizing Remote Running](#optimizing-remote-running)
 
 # Installing VScode
 
@@ -93,7 +93,7 @@ Then it should work.
 
 # Optimizing Remote Running
 
-I created a bat file that takes one or two arguments the file and the  destinationin the server.
+I created a bat file that takes one or two arguments the file and the  destination of the server.
 
 ```
 set directory=%2
