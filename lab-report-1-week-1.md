@@ -7,10 +7,14 @@
 - Setting an SSH Key
 - Optimizing Remote Running
 
+# Installing VScode
+
 To insall VScode you need to [https://code.visualstudio.com/](https://code.visualstudio.com/) and click on the download button and follow the instuctions after that.
 Make sure when you are downloading you are downloading the right verion for your Operating System. 
 
 ![Image](/IMAGES/VScodeDownloadPage.PNG)
+
+# Remotely Connecting
 
 To remotely connect to another computer we will be using the terminal that is inside of VScode. If you have a windows computer you will need to make sure you have OpenSSH CLient which could be already insalled and can check it under manage optional features in settings. If not then click here [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
 
@@ -26,6 +30,8 @@ After typeing yes it will ask for your password.
 
 ![Image](/IMAGES/RemoteConnecting.PNG)
 
+# Trying Some Commands
+
 Commands you can use 
 
 - `cd ~` (takes you to home directory)
@@ -33,6 +39,8 @@ Commands you can use
 - Ctr + D or `exit` (stop remote connection)
 
 ![Image](/IMAGES/SomeCommands.PNG)
+
+# Moving Files with `scp`
 
 Create a file you want to copy on your local computer. (a blank Hello.txt file works)
 
@@ -45,6 +53,8 @@ Format of using `scp`
 Now when you connect to the remot computer and type `ls` you should see the file you copied over.
 
 ![Image](/IMAGES/CopyFilesSSH.PNG)
+
+# Setting an SSH Key
 
 Now to make connecting to the remote computer easier you can give the remote computer your local computer ssh key. It lets you log in without haing to type the password.
 
@@ -80,3 +90,19 @@ and then send the file to the server to the new directory.
 Then it should work.
 
 ![Image](/IMAGES/SSHKeyNoPass.PNG)
+
+# Optimizing Remote Running
+
+I created a bat file that takes one or two arguments the file and the  destinationin the server.
+
+```
+set directory=%2
+set file = %1
+if directory == "" set directory="~/"
+scp %1 cs15lfa22be@ieng6.ucsd.edu:%directory%
+ssh cs15lfa22be@ieng6.ucsd.edu "ls" 
+ssh cs15lfa22be@ieng6.ucsd.edu "javac %1" 
+ssh cs15lfa22be@ieng6.ucsd.edu "java %~n1" 
+```
+
+![Image](/IMAGES/copybat.PNG)
