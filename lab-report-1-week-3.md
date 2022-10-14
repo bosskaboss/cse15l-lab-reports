@@ -52,7 +52,7 @@ public class SearchEngine {
     } 
 }
 ```
-The method handleRequestgets called for the different urls.
+The method handleRequest gets called for the different urls.
 
 ![Image1](/IMAGES/SearchEngine1.PNG)
 
