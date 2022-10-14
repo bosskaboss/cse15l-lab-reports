@@ -150,7 +150,7 @@ The reason reverseInPlace is outputting that is because it is not using a tempor
         assertEquals(list_output, list_input);
     }
 @Test 
-	public void testReverseInPlace() {
+	public void testMerge() {
 		ArrayList<String> first = new ArrayList<String>();
 		ArrayList<String> second = new ArrayList<String>();
 		first.add("A");
