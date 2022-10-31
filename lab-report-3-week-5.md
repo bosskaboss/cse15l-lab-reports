@@ -16,6 +16,7 @@ outputs
 ![Image](/IMAGES/normalGrep.PNG)
 
 -n : Display the matched lines and their line numbers.
+----
 
 Useful if you want to change the phrase and need to know where it is.
 
@@ -34,6 +35,7 @@ Finds the lines that dont contain "base pair". Outputs
 ![Image](/IMAGES/nGrep3.PNG)
 
 -i : Ignores, case for matching
+------
 
 This allows you to search for the word no matter the casing of the letters so if the word was typed weirdly with some capitilized letters it would still find it for you.
 
@@ -51,7 +53,8 @@ outputs
 
 ![Image](/IMAGES/iGrep3.PNG)
 
--w : Match whole word
+ -w : Match whole word
+---------
 
 This command is usefull as it lets you find the exact word for example if you want to search for the word "dash" it will ignore words like "dashdoor", "dashing", and "dashier".
 
