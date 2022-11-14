@@ -14,5 +14,5 @@ Dibyesh Sahoo
 [Lab Report 3 Week 5](lab-report-3-week-5.md)
 (The grep command)
 
-[Lab Report 4 Week 7](lab-report-4-week-5.md)
+[Lab Report 4 Week 7](lab-report-4-week-7.md)
 (Vim)
