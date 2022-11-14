@@ -31,7 +31,7 @@ In DocSearchServer.java, change the main method so that rather than hardcoding t
 
 ## Part 2
 
-It took me 3mins and 15sec to edi, scp the file to the remote server, and run it there
+It took me 3mins and 15sec to edit, scp the file to the remote server, and run it there
 
 It took me 1min and 2 sec to edit it in vim and run it.
 
