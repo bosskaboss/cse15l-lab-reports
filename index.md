@@ -17,5 +17,5 @@ Dibyesh Sahoo
 [Lab Report 4 Week 7](lab-report-4-week-7.md)
 (Vim)
 
-[Lab Report 5 Week 9/10](lab-report-5-week-8.md)
+[Lab Report 5 Week 9/10](lab-report-5-week-910.md)
 (Vim)
