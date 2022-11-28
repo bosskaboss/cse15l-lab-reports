@@ -1,6 +1,6 @@
 Hello, world!
 
-Dibyesh Sahoo
+# Dibyesh Sahoo
 
 [Lab Report 0 Week 0](lab-report-0-week-0.md)
 (Screenshot of Screenshot usage)
